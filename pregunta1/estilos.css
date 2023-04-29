@@ -1,0 +1,32 @@
+.container{
+    width: 250px;
+    height: 190px;
+    margin: auto;
+}
+
+.encabezado{
+    background-color: gray;
+}
+.encabezado h1{
+    color: white;
+    text-align: center;
+}
+
+.centro{
+    justify-content: center;
+}
+
+.centro p{
+    font-style: italic;
+    text-align: center;
+}
+
+.pie{
+    height: 40px;
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+.pie p{
+    text-align: center;
+}

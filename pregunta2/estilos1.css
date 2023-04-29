@@ -1,0 +1,123 @@
+.contenedor{
+    max-width: 1140px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    background-color: #D9D9D9;
+    margin-bottom: 10px;
+}
+
+aside{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+footer{
+    display: flex;
+}
+
+.logoinferior{
+    margin-top: 10px;
+}
+.logocentroizquierda{
+    width: 620px;
+    height: 500px;
+}
+
+h4{
+    font-size: 46px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 400px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    margin-top: 600px;
+    font-weight: bold;
+}
+
+h6{
+    font-size: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    margin-top: 700px;
+    font-weight: normal;
+}
+.menuCabecera{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.titulo{
+    font-weight: bold !important;
+}
+
+.sesion{
+    font-weight: bold !important;
+}
+
+.soporte{
+    margin-right:360px !important;
+}
+.menuCabecera li{
+    list-style-type: none;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.arribaderecha h1{
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    width: 240px;
+    display: block;
+}
+
+.arribaderecha h5{
+    font-size: 15px;
+    font-style: normal;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+}
+
+
+.arribaderecha{
+    display: flex;
+    width: 250px;
+    height: 400px;
+    background-color: #006B0B;
+}
+
+.abajoderecha{
+    display: flex;
+    background-image: url("02.jpg");
+    width: 250px;
+    height: 400px;
+}
+
+.centroizquierda{
+    display: flex;
+    width: 640px;
+    height: 800px;
+    margin-right: 10px;
+    background-image: url("01.jpg");
+}
+.abajoizquierda{
+    width: 1120px;
+    background-color: #636363;
+    color: white;
+    padding-left: 40px;
+}
+
