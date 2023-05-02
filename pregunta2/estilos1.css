@@ -1,5 +1,5 @@
 .contenedor{
-    max-width: 1140px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -9,7 +9,7 @@ header{
     margin-bottom: 10px;
 }
 
-aside{
+main{
     display: flex;
     margin-bottom: 10px;
 }
@@ -18,70 +18,98 @@ footer{
     display: flex;
 }
 
-.logoinferior{
-    margin-top: 10px;
-}
-.logocentroizquierda{
-    width: 620px;
-    height: 500px;
-}
-
-h4{
-    font-size: 46px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    display: block;
-    width: 400px;
-    margin-left: 50px;
-    margin-bottom: 15px;
-    margin-top: 600px;
-    font-weight: bold;
-}
-
-h6{
-    font-size: 15px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    display: block;
-    width: 200px;
-    margin-left: 50px;
-    margin-bottom: 15px;
-    margin-top: 700px;
-    font-weight: normal;
-}
 .menuCabecera{
     display: flex;
-    flex-wrap: nowrap;
+    padding-left: 10px;
 }
 
-.titulo{
-    font-weight: bold !important;
-}
-
-.sesion{
-    font-weight: bold !important;
-}
-
-.soporte{
-    margin-right:360px !important;
-}
 .menuCabecera li{
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    font-size: 15px;
+}
+
+.micro{
+    font-weight: bold;
+    margin-right: 40px !important;
+}
+
+.inicio{
+    font-weight: bold;
+    margin-left: 340px;
+    margin-right: 0px !important;
+}
+
+.centroizquierda{
+    width: 600px;
+    height: 830px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-image: url("01.jpg");
+}
+
+.centroizquierda h5{
+    margin-left: 40px;
+    margin-top: 630px;
+    margin-bottom: 0px;
+    width: 220px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
     font-weight: normal;
-    font-size: 14px;
-    white-space: nowrap;
+    font-size: 20px;
+    background-color: #DAA520;
+    text-align: center;
+}
+
+.centroizquierda h4{
+    height: 45px;
+    width: 250px;
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.centroizquierda h6{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.centroizquierda p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 40px;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+.arribaderecha{
+    width: 300px;
+    height: 410px;
+    background-color: #006B0B;
 }
 
 .arribaderecha h1{
     font-size: 35px;
     color: white;
     text-align: left;
-    padding-left: 15px;
-    width: 240px;
-    display: block;
+    padding-left: 20px;
+    margin-top: 0px;
+    padding-top: 40px;
 }
 
 .arribaderecha h5{
@@ -89,35 +117,25 @@ h6{
     font-style: normal;
     color: white;
     text-align: left;
-    padding-left: 15px;
+    padding-left: 20px;
+    font-weight: normal;
 }
 
-
-.arribaderecha{
-    display: flex;
-    width: 250px;
-    height: 400px;
-    background-color: #006B0B;
+.centroderecha{
+    width: 300px;
+    height: 410px;
+    margin-right: 10px;
+    background-image: url("02.jpg");
 }
 
 .abajoderecha{
-    display: flex;
-    background-image: url("02.jpg");
-    width: 250px;
-    height: 400px;
+    background-image: url("03.jpg");
 }
 
-.centroizquierda{
-    display: flex;
-    width: 640px;
-    height: 800px;
-    margin-right: 10px;
-    background-image: url("01.jpg");
-}
-.abajoizquierda{
-    width: 1120px;
+.pie{
+    width: 1080px;
     background-color: #636363;
     color: white;
-    padding-left: 40px;
+    padding-left: 10px;
 }
 
